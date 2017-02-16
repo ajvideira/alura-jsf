@@ -10,7 +10,6 @@ public class UsuarioDAO extends GenericDAO<Integer, Usuario> {
 
 	public UsuarioDAO(EntityManager entityManager) {
 		super(entityManager);
-		// TODO Auto-generated constructor stub
 	}
 	
 	public Usuario findByLoginAndPassword(String login, String password) {
